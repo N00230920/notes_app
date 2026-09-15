@@ -19,3 +19,5 @@ app.get("/api/notes", (req, res) => {
 app.listen(port, () => {
   console.log(`Listening on http://localhost:${port}`);
 });
+
+// Add a note 
